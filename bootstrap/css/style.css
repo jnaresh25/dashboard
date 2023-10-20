@@ -1,0 +1,47 @@
+.dropdown-item:hover{
+background: linear-gradient(45deg,rgb(223, 47, 47),darkslategrey);
+color: white;
+box-shadow: 0 0 5px black;
+}
+
+.bg-teal{
+    background-color:#2d7070 !important;
+    
+}
+.text-teal{
+    color:#2d7070 !important;
+}
+
+.btn-primary{
+    background: linear-gradient(45deg,blue,purple);
+}
+
+.btn-success{
+background: linear-gradient(45deg,green,yellow);
+}
+
+.btn-warning{
+    background: linear-gradient(45deg,orange,deeppink);
+}
+
+.btn-secondary{
+    background:linear-gradient(45deg,navy,teal);
+
+}
+
+.bg-primary{
+    background: linear-gradient(45deg,blue,purple);
+}
+
+.bg-success{
+    background: linear-gradient(45deg,green,yellow);
+}
+
+.bg-warning{
+    background: linear-gradient(45deg,orange,deeppink);
+}
+
+.n-image{
+    border-radius: 10px;
+    box-shadow: 0 0px 10px black;
+}

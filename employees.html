@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---Bootstrap css files-->
+<link rel="stylesheet" href="bootstrap/font-awesome_6.4.2/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/mdb.css">
+<link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <!--main navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-warning">
+              <i class="fa fa-draw-polygon"></i>  Naresh Tech
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#naresh-navbar">
+                <span class="navbar-toggler-icon">
+
+                </span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="naresh-navbar">
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="fa fa-dashboard text-muted"></i>Dashboard</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="tasks.html"><i class="fa fa-list-alt text-muted"></i>Tasks</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="categories.html"><i class="fa fa-sitemap text-muted"></i>Categories</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="employees.html"><i class="fa fa-users text-muted"></i>Employess</a>
+    </li>
+    
+</ul>
+<ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown ">
+        <a class="nav-link" href="#" data-toggle="dropdown">
+            <i class="fa fa-sign-in-alt text-muted"></i>Naresh</a>
+        <div class="dropdown-menu text-white p-3">
+            <a href="profile.html" class="dropdown-item ">
+                <i class="fa fa-user-circle">Profile</i>
+            </a>
+            <a href="setting.html" class="dropdown-item">
+                <i class="fa fa-cogs">Settings</i>
+            </a>
+             
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="login.html"><i class="fa fa-sign-out-alt text-muted"></i>Logout</a>
+    </li>
+    
+    
+</ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---employee section-->
+
+    <section class="p-2 bg-warning text-white">
+        <div class="container">
+            <div class="row">
+               <h2>
+                <i class="fa fa-users"></i> Employees
+               </h2>
+            </div>
+        </div>
+
+    </section>
+
+    <!---employee search-->
+    <section class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+<!--empty-->
+                </div>
+                <div class="col-md-6">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input size="20px" type="search" class="form-control" placeholder="Employee Name">
+                        </div>
+                        <div>
+<input type="submit" value="search" class="btn btn-warning">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--employee table-->
+
+    <section class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <div class="card">
+                    <div class="card-header bg-warning text-white">
+<h3>Employee Details</h3>
+                    </div>
+                    <div class="card-body rgba-blue-grey-light">
+                        <table class="table table-hover text-center">
+                            <thead class="bg-dark text-white">
+                                <tr>
+                                   <th>S.No</th>
+                                   <th>NAME</th>
+                                   <th>EMAIL</th>
+                                   <th>TASK</th>
+                                   <th>LEVEL</th>
+                                   <th>CATEGORY</th>
+                                   <th>DETAILS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Naresh</td>
+                                    <td>jnar@gmail.com</td>
+                                    <td>Sending Mails</td>
+                                    <td>Medium</td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Naresh</td>
+                                    <td>jnar@gmail.com</td>
+                                    <td>Sending Mails</td>
+                                    <td>Medium</td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Naresh</td>
+                                    <td>jnar@gmail.com</td>
+                                    <td>Sending Mails</td>
+                                    <td>Medium</td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Naresh</td>
+                                    <td>jnar@gmail.com</td>
+                                    <td>Sending Mails</td>
+                                    <td>Medium</td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Naresh</td>
+                                    <td>jnar@gmail.com</td>
+                                    <td>Sending Mails</td>
+                                    <td>Medium</td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+
+
+
+
+<!--Main footer-->
+<footer class="p-3 bg-dark text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <h3>Copyright &copy; 2023, Naresh Tech</h3>  
+              <h6>All Rights Reserved </h6>
+              <h6>Developed & Maintained by 
+                <a class="text-warning" href=""target="_blank">Naresh</a>
+              </h6>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+    <!---bootstrap js files-->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/mdb.js"></script>
+    
+</body>
+</html>
